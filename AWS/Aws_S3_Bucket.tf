@@ -1,13 +1,17 @@
-resource "aws_s3_bucket" "examplebucket" {
+resource "aws_s3_bucket" "vivek2" {
   bucket = "examplebuckettftest"
+  versioning {
+    enabled = false
+    mfa_delete = false
+  }
 }
 
-resource "aws_s3_bucket" "mfadelete" {
+resource "aws_s3_bucket" "vivek1" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
-    enabled = true
-    mfa_delete = true
+    enabled = false
+    mfa_delete = false
   }
 }
 
