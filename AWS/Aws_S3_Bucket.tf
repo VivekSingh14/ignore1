@@ -1,17 +1,17 @@
-resource "aws_s3_bucket" "vivektest4" {
+resource "aws_s3_bucket" "vivektest" {
   bucket = "examplebuckettftest"
   versioning {
-    enabled = false
-    mfa_delete = false
+    enabled = true
+    mfa_delete = true
   }
 }
 
-resource "aws_s3_bucket" "vivektest4" {
+resource "aws_s3_bucket" "vivektest" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
-    enabled = false
-    mfa_delete = false
+    enabled = true
+    mfa_delete = true
   }
 }
 
