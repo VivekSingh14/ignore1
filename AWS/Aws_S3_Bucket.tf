@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "vivektest1" {
+resource "aws_s3_bucket" "vivektest4" {
   bucket = "examplebuckettftest"
   versioning {
     enabled = false
@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "vivektest1" {
   }
 }
 
-resource "aws_s3_bucket" "vivektest2" {
+resource "aws_s3_bucket" "vivektest4" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
