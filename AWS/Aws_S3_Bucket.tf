@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "temp89" {
+resource "aws_s3_bucket" "exam67" {
   bucket = "examplebuckettftest"
   versioning {
     enabled = false
@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "temp89" {
   }
 }
 
-resource "aws_s3_bucket" "temp1" {
+resource "aws_s3_bucket" "exam32" {
   bucket = "examplebuckettftest"
   acl    = "private"
   versioning {
